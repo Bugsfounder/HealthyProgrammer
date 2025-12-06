@@ -1,0 +1,71 @@
+# -------------------------
+# Rust
+# -------------------------
+/target
+**/*.rs.bk
+Cargo.lock
+
+# If you want to commit Cargo.lock for apps, remove the above line.
+
+# -------------------------
+# Tauri build outputs
+# -------------------------
+/src-tauri/target/
+src-tauri/gen
+src-tauri/.cargo
+
+# -------------------------
+# Node / Frontend
+# -------------------------
+node_modules/
+dist/
+build/
+.pnpm-store/
+.vite/
+
+# -------------------------
+# Logs and temp files
+# -------------------------
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+*.tmp
+*.swp
+
+# -------------------------
+# Env files
+# -------------------------
+.env
+.env.local
+.env.production
+.env.development
+
+# -------------------------
+# OS files
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# Editor / IDE
+# -------------------------
+.vscode/
+.idea/
+*.iml
+
+# -------------------------
+# Tauri Bundled App Output
+# -------------------------
+/src-tauri/target/release/bundle/
+
+
+# -------------------------
+# Others
+# -------------------------
+.history
+history
+.history/*
+.vscode
+.idea
