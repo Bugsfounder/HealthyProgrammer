@@ -149,14 +149,5 @@ cargo tauri build
 
 ##  Credits
 
-Created by bugsfounder & Team
+Created by bugsfounder
 Inspired by a prototype built 2 years ago, now rebuilt with Rust for long-term quality.
-
-Bro, if you want I can also write:
-
-- Full **CONTRIBUTING.md**
-- Coding guidelines
-- UI wireframe
-- First sprint tasks
-
-Just tell me.
